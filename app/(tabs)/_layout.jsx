@@ -5,7 +5,6 @@ import { icons } from "../../constants";
 import { styled } from "nativewind";
 
 const StyledImage = styled(Image);
-
 const TabIcon = ({ icon, color, name, focused }) => {
   return (
     <View className="flex items-center justify-center gap-2">
